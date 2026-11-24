@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group>
+        <item
+            android:id="@+id/calc_standard"
+            android:title="@string/menu_standard"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/calc_scientifique"
+            android:title="@string/menu_scientifique"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/devise"
+            android:title="@string/menu_devise"
+            app:showAsAction="never" />
+    </group>
+</menu>
